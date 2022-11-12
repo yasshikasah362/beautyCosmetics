@@ -1,0 +1,1019 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* cursor: none; */
+}
+
+#main{
+    width: 100%;
+}
+
+#section1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(https://vimcosmo.com/pics/home-cover.webp);
+    background-position: center;
+}
+#section2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+}
+#section3{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+#section4{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+#section5{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+
+#section6{
+   position: relative;
+    height: 100vh;
+    width: 100%;
+     /* background-color: rgb(212, 72, 72); */
+} 
+#section7{
+    position: relative;
+     height: 100vh;
+     width: 100%;
+      /* background-color: rgb(212, 72, 72); */
+ } 
+ #section8{
+    position: relative;
+     height: 100vh;
+     width: 100%;
+      /* background-color: rgb(212, 72, 72); */
+ } 
+ #section9{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://vimcosmo.com/pics/footer.webp);
+    background-position: center;
+ } 
+#nav{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+     
+}
+#left {
+   position: absolute;
+   /* background-color: white; */
+   height: 100%;
+   width: 80px;
+   left: 5%;
+}
+#left h2{
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+#right {
+    position: absolute;
+    /* background-color: white; */
+    height: 100%;
+    width: 30%;
+    left: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+   
+}
+#right a{
+    text-decoration: none;
+    margin: 20px;
+   font-size: 1.5vw;
+    color: white;
+}
+#section1 h1{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 5vw;
+    color: white;
+    font-weight: 200;
+    opacity: 0;
+    rotate: calc(-10deg);
+}
+#section1 h1 span{
+    font-family: 'Poppins', sans-serif;
+
+}
+#section1 h2{
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    font-size: 5vw;
+    color: white; 
+    font-weight: 200;
+    opacity: 0;
+    rotate: calc(-10deg);
+}
+#section2 #text{
+   position:relative;
+   height: 75%;
+   width: 35%;
+   /* background-color: blue; */
+   top: 5%;
+   left: 58%;
+
+}
+#text h1{
+    position: absolute;
+    font-size: 3vw;
+    top: 20%;
+    left: 2%;
+    color: black;
+}
+#text p{
+    position: absolute;
+    top: 50%;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    color: #dadada;
+}
+#text button{
+    height: 10%;
+    width: 30%;
+    border-radius: 50px;
+    color: royalblue;
+    font-size: 1vw;
+    position: absolute;
+    top: 70%;
+    border: none;
+}
+#text button:hover{
+    background-color: royalblue;
+    color:white;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+}
+#section2 #photo{
+    height: 79%;
+    width: 45%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 5%;
+    border-radius: 48%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    overflow: hidden;
+
+}
+#photo img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#section3 h2{
+    position: absolute;
+    color: black;
+    top: 5%;
+    text-align: center;
+    font-size: 3vw;
+    left: 40%;
+}
+#photu{
+    height: 40%;
+    width: 80%;
+    position: absolute;
+    /* background-color: blue; */
+    top: 20%;
+    left: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 4%;
+}
+#photu .one{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    /* background-color: aqua; */
+    border-radius: 30px;
+    overflow: hidden;
+    background-position: center;
+}
+#photu #ele1 #image1{
+    height: 100%;
+   width: 100%;
+   -o-object-fit: cover;
+      object-fit: cover;
+   opacity: 1;
+}
+#photu #ele1 #image1:hover{
+    opacity: 0;
+}
+#photu #ele1 #image2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 6;
+    opacity: 0;
+    background-position: center;
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#photu #ele1 #image2 img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#photu #ele1 #image2:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.2) rotate(-2deg);
+        -ms-transform: scale(1.2) rotate(-2deg);
+            transform: scale(1.2) rotate(-2deg);
+}
+#photu #ele2 #image1{
+    height: 100%;
+   width: 100%;
+   -o-object-fit: cover;
+      object-fit: cover;
+   opacity: 1;
+}
+#photu #ele2 #image1:hover{
+    opacity: 0;
+}
+#photu #ele2 #image2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 6;
+    opacity: 0;
+    background-position: center;
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#photu #ele2 #image2 img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#photu #ele2 #image2:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.2) rotate(-2deg) ;
+        -ms-transform: scale(1.2) rotate(-2deg) ;
+            transform: scale(1.2) rotate(-2deg) ;
+}
+#photu #ele3 #image1{
+    height: 100%;
+   width: 100%;
+   -o-object-fit: cover;
+      object-fit: cover;
+   opacity: 1;
+}
+#photu #ele3 #image1:hover{
+    opacity: 0;
+}
+#photu #ele3 #image2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 6;
+    opacity: 0;
+    background-position: center;
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#photu #ele3 #image2 img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#photu #ele3 #image2:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.2) rotate(-2deg) ;
+        -ms-transform: scale(1.2) rotate(-2deg) ;
+            transform: scale(1.2) rotate(-2deg) ;
+}
+#photu #ele4 #image1{
+    height: 100%;
+   width: 100%;
+   -o-object-fit: cover;
+      object-fit: cover;
+   opacity: 1;
+}
+#photu #ele4 #image1:hover{
+    opacity: 0;
+}
+#photu #ele4 #image2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 6;
+    opacity: 0;
+    background-position: center;
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#photu #ele4 #image2 img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#photu #ele4 #image2:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.2) rotate(-2deg) ;
+        -ms-transform: scale(1.2) rotate(-2deg) ;
+            transform: scale(1.2) rotate(-2deg) ;
+}
+#section3 #text{
+    position: relative;
+    height: 10%;
+    width: 80%;
+    /* background-color: blue; */
+    top: 62%;
+    left: 10%;
+}
+#section3 #text #first{
+    position: absolute;
+    left: 8%;
+    font-size: 1.4vw;
+}
+#section3 #text #sec{
+    position: absolute;
+    left: 36%;
+    font-size: 1.4vw;
+}
+#section3 #text #third{
+    position: absolute;
+    left: 58%;
+    font-size: 1.4vw;
+}
+#section3 #text #four{
+    position: absolute;
+    left: 87%;
+    font-size: 1.4vw;
+}
+#star-big{
+    height: 5%;
+    width: 80%;
+    /* background-color: green; */
+    position: relative;
+    top: 57%;
+    left: 10%;    
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
+   gap: 2%;
+}
+#star-big #star1{
+    height: 100%;
+    width: 11%;
+    /* background-color: white; */
+    position: relative;
+    
+    white-space: nowrap; 
+}
+#star-big #star2{
+    height: 100%;
+    width: 11%;
+    /* background-color: white; */
+    position: relative;
+    left: 14%; 
+    white-space: nowrap; 
+}
+#star-big #star3{
+    height: 100%;
+    width: 11%;
+    /* background-color: white; */
+    position: relative;
+    left: 28%;
+    white-space: nowrap;  
+}
+#star-big #star4{
+    height: 100%;
+    width: 11%;
+    /* background-color: white; */
+    position: relative;
+    left: 40%;
+    white-space: nowrap;  
+}
+#section3 #price1{
+    position: absolute;
+    left: 11%;
+    font-size: 1.4vw;
+    z-index: 999;
+}
+#section3 #price2{
+    position: absolute;
+    left: 38%;
+    font-size: 1.4vw;
+    z-index: 999;
+}
+#section3 #price3{
+    position: absolute;
+    left: 65%;
+    font-size: 1.4vw;
+    z-index: 999;
+}
+#section3 #price4{
+    position: absolute;
+    left: 90%;
+    font-size: 1.4vw;
+    z-index: 999;
+}
+#section4 #text{
+    position:relative;
+    height: 75%;
+    width: 35%;
+    /* background-color: blue; */
+    top: 10%;
+    left: 10%;
+ 
+ }
+ #section4 #text h1{
+    position: absolute;
+    font-size: 3vw;
+    top: 20%;
+    left: 2%;
+    color: black;
+}
+#section4 #text p{
+    position: absolute;
+    top: 50%;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    color: #dadada;
+}
+#section4 #text button{
+    height: 10%;
+    width: 30%;
+    border-radius: 50px;
+    color: royalblue;
+    font-size: 1vw;
+    position: absolute;
+    top: 80%;
+    border: none;
+}
+#section4 #text button:hover{
+    background-color: royalblue;
+    color:white;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+}
+#section4 #photo{
+    height: 79%;
+    width: 50%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 5%;
+    border-radius: 48%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    overflow: hidden;
+    left: 50%;
+}
+#section4 #photo img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#section6 #text{
+    position:relative;
+    height: 75%;
+    width: 35%;
+    /* background-color: blue; */
+    top: 10%;
+    left: 60%;
+ 
+ }
+ #section6 #text h1{
+    position: absolute;
+    font-size: 3vw;
+    top: 20%;
+    left: 2%;
+    color: black;
+}
+#section6 #text p{
+    position: absolute;
+    top: 50%;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    color: #dadada;
+}
+#section6 #photo{
+    height: 79%;
+    width: 50%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 5%;
+    border-radius: 48%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    overflow: hidden;
+    /* left: 50%; */
+}
+#section6 #photo img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#section6 #text button{
+    height: 10%;
+    width: 30%;
+    border-radius: 50px;
+    color: royalblue;
+    font-size: 1vw;
+    position: absolute;
+    top: 80%;
+    border: none;
+}
+#section6 #text button:hover{
+    background-color: royalblue;
+    color:white;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+}
+#section7 #next{
+    height: 75%;
+    width: 60%;
+    /* background-color: red; */
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+#next h1{
+    font-size: 3.5vw;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 26%;
+}
+#next #particle-1{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+}
+#next #particle-2{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+#next #particle-3{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+#next #particle-4{
+    position: absolute;
+    top: 74%;
+    left: 60%;
+}
+#next #particle-5{
+    position: absolute;
+    top: 74%;
+    left: 13%;
+}
+#next #particle-6{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+#section8 #oval1{
+    position: relative;
+    height: 70%;
+    width: 28%;
+    /* background-color: white; */
+    top: 20%;
+    border-radius: 50%;
+   left: 5%;
+   
+}
+#section8 #oval2{
+    position: absolute;
+    height: 70%;
+    width: 28%;
+    /* background-color: white; */
+    top: 20%;
+    border-radius: 50%;
+   left: 35%;
+    border-bottom-right-radius: 40%;
+}
+#section8 #oval3{
+    position: absolute;
+    height: 70%;
+    width: 28%;
+    /* background-color: white; */
+    top: 20%;
+    border-radius: 50%;
+   left: 65%;
+    border-bottom-right-radius: 40%;
+}
+#section8 #oval1 img{
+    position: absolute;
+    height: 35%;
+    left: 14%;
+}
+#section8 #oval1 h4{
+    position: absolute;
+    font-size: 3vw;
+    color: white;
+    top: 43%;
+    left: 20%;
+    font-weight: 200;
+}
+#section8 #oval1 p{
+    position: absolute;
+    font-size: 1.5vw;
+    color: #dadada;
+    top: 60%;
+    left: 20%;
+    font-weight: 200;
+}
+#section8 #oval1:hover{
+    background-color: rgba(135, 207, 235, 0.756);
+}
+#section8 #oval2 img{
+    position: absolute;
+    height: 35%;
+    left: 22%;
+    top: 10%;
+}
+#section8 #oval2 h4{
+    position: absolute;
+    font-size: 3vw;
+    color: white;
+    top: 45%;
+    left: 20%;
+    font-weight: 200;
+}
+#section8 #oval2 p{
+    position: absolute;
+    font-size: 1.5vw;
+    color: #dadada;
+    top: 60%;
+    left: 20%;
+    font-weight: 200;
+}
+#section8 #oval2:hover{
+    background-color: rgb(234, 152, 179);
+}
+#section8 #oval3 img{
+    position: absolute;
+    height: 35%;
+    left: 37%;
+}
+#section8 #oval3 h4{
+    position: absolute;
+    font-size: 3vw;
+    color: white;
+    top: 45%;
+    left: 20%;
+    font-weight: 200;
+}
+#section8 #oval3 p{
+    position: absolute;
+    font-size: 1.5vw;
+    color: #dadada;
+    top: 60%;
+    left: 20%;
+    font-weight: 200;
+}
+#section8 #oval3:hover{
+    background-color: rgba(135, 207, 235, 0.756);
+}
+#section9 h1{
+    position: absolute;
+    top: 25%;
+    font-size: 3vw;
+    left: 40%;
+    color: white;
+}
+#section9 h2{
+    position: absolute;
+    top: 30%;
+    font-size: 3vw;
+    left: 44%;
+    color: white;
+}
+#section9 h3{
+    position: absolute;
+    top: 53%;
+    font-size: 2vw;
+    left: 47%;
+    color:white;
+    font-weight: 100;
+}
+#section9 button{
+    position: absolute;
+    width: 40%;
+    top: 40%;
+    left: 30%;
+    height: 10%;
+    border-radius: 50px;
+    border: none;
+    color: skyblue;
+    font-size: 1.4vw;
+}
+#section5 h1{
+    text-align: center;
+    font-size: 3vw;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-weight: 100;
+}
+#section5 #strip-1{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ /* background-color: blue; */
+ top: 25%;
+ -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 181.41, 0, 0, 1);
+         transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 181.41, 0, 0, 1);
+}
+#section5 #strip-2{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(120, 120, 218); */
+    top: 55%;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 181.41, 0, 0, 1);
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 181.41, 0, 0, 1);
+}
+#strip-1 #sub1{
+    height: 100%;
+    width: 33%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+#strip-1 #sub2{
+    height: 100%;
+    width: 33%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    left: 40%;
+}
+#strip-1 #sub3{
+    height: 100%;
+    width: 33%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    left: 80%;
+}
+#strip-1 .sem .image{
+    height: 100%;
+    width: 30%;
+    /* background-color: green; */
+    border-radius: 50px;
+    overflow: hidden;
+}
+#strip-1 .sem .image img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+#sub1 #nemo{
+    position: absolute;
+    /* background-color: green; */
+    height: 17%;
+    width: 30%;
+    left:35% ;
+   top: 10%;
+}
+#sub2 #nemo1{
+    position: absolute;
+    /* background-color: green; */
+    height: 17%;
+    width: 30%;
+    left:35% ;
+   top: 10%;
+}
+#sub3 #nemo2{
+    position: absolute;
+    /* background-color: green; */
+    height: 17%;
+    width: 30%;
+    left:35% ;
+   top: 10%;
+}
+#sub1 p{
+    position: absolute;
+    top: 27%;
+    /* padding: 20px; */
+    left: 35%;
+    color: #c6b9b9;
+}
+#sub1 h1{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+#sub2 p{
+    position: absolute;
+    top: 27%;
+    /* padding: 20px; */
+    left: 35%;
+    color: #c6b9b9;
+}
+#sub2 h1{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+#sub3 p{
+    position: absolute;
+    top: 27%;
+    /* padding: 20px; */
+    left: 35%;
+    color: #c6b9b9;
+}
+#sub3 h1{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+#strip-2 #sub1{
+    height: 100%;
+    width: 33%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+#strip-2 #sub2{
+    height: 100%;
+    width: 33%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    left: 40%;
+}
+#strip-2 #sub3{
+    height: 100%;
+    width: 33%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    left: 80%;
+}
+#strip-2 .sem .image{
+    height: 100%;
+    width: 30%;
+    /* background-color: green; */
+    border-radius: 50px;
+    overflow: hidden;
+}
+#strip-2 .sem .image img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+ #strip-2 #sub1 #nemo{
+    position: absolute;
+    /* background-color: green; */
+    height: 17%;
+    width: 30%;
+    left:35% ;
+   top: 10%;
+}
+#strip-2 #sub2 #nemo1{
+    position: absolute;
+    /* background-color: green; */
+    height: 17%;
+    width: 30%;
+    left:35% ;
+   top: 10%;
+}
+#strip-2 #sub3 #nemo2{
+    position: absolute;
+    /* background-color: green; */
+    height: 17%;
+    width: 30%;
+    left:35% ;
+   top: 10%;
+}
+#strip-2 #sub1 p{
+    position: absolute;
+    top: 27%;
+    /* padding: 20px; */
+    left: 35%;
+    color: #c6b9b9;
+}
+#strip-2 #sub1 h1{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+#strip-2 #sub2 p{
+    position: absolute;
+    top: 27%;
+    /* padding: 20px; */
+    left: 35%;
+    color: #c6b9b9;
+}
+#strip-2 #sub2 h1{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+#strip-2 #sub3 p{
+    position: absolute;
+    top: 27%;
+    /* padding: 20px; */
+    left: 35%;
+    color: #c6b9b9;
+}
+#strip-2 #sub3 h1{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+}
+
+
+
+
+
+
+
+
+
+
